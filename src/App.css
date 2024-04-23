@@ -1,0 +1,213 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+.nv {
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: white;
+}
+
+.nv1:hover {
+
+    color: yellow;
+}
+
+.nv1 {
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    gap: 30px;
+    color: white;
+}
+
+.nv-container {
+
+    background-image: url('./assets/Exca.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 69em;
+}
+
+.heading {
+
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+
+}
+
+@media (max-width:1229px) {
+
+    .heading {
+
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+    
+    }
+    
+
+
+}
+
+
+.bn {
+
+    background-color: #ffd541;
+    padding: 5px;
+    height: 61px;
+    width: 138px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+.bn:hover {
+
+    background-color: gray;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+
+.nv-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 21em;
+}
+
+
+
+.cnt-2 {
+
+    gap: 20em;
+    justify-content: center;
+}
+
+@media (max-width:1229px) {
+
+    .cnt-2 {
+
+        gap: 15em;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:1236px) {
+
+    .cnt-2 {
+
+        gap: 10em;
+    }
+}
+
+
+
+.cnt-2s {
+
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.cnt-3 {
+
+    background-color: rgb(61, 60, 60);
+    color: white;
+}
+
+.cnt-hd {
+
+    border-left: 6px solid #ffd541;
+    padding-left: 5px;
+}
+
+@media (max-width: 534px) {
+
+    .cnt-3{
+
+        padding-bottom: 100em;
+    }
+
+    .card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+
+    width: 179px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+}
+
+.cnt-pr {
+
+    color: rgb(177, 177, 177);
+    font-weight: 600;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+
+    width: 379px;
+    height: 420px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    height: 62em;
+    justify-content: center;
+    gap: 4em;
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card1:hover {
+
+    border-bottom: #ffd541;
+
+}
+
+.crd-cnt:hover {
+
+    color: #ffd541;
+
+}
+
+.ftr{
+
+    background-color: rgb(61, 60, 60);
+    color: white;
+}
